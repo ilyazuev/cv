@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+---
+
+# Lineage for IBM products and Oracle
+
+During my work in ING-Diba, I have implemented a system that expanded the capabilities of IBM products.
+
+### Covered products:
+
+- **IBM DataStage 11.7** + **IBM InfoSphere Information Governance Catalog**
+- **IBM Cloud Pak for Data** + **IBM Watson Catalogue**
+
+### Involved products:
+
+- Oracle databases
+
+- Atlassian Confluence
+
+- Microsoft Azure
+
+- Amason S3
+
+### Lineage
+
+I developed the lineage: complete control over all enterprise data flows.
+Using ANTLR, a system was written for lexical/grammatical parsing of all ETL/ELT processes, as well as all related Oracle SQL queries (of any complexity).
+The lineage includes a complete data flow graph and also a connection between the technical level and the business level.
+The technical part allows a complete detailed analysis of data flows and covers both the level of tables and ETL/ELT processes, as well as fields and variables.
+It is also possible to process enterprise-specific data flow connections (specific lineage cases).
+The system includes a service for automatically rebuilding the graph in case of any changes in ETL/ELT processes or database structures.
+
+Lineage GUI:
+
+- interactive visualization of data flow graphs;
+
+- reporting;
+
+- statistics;
+
+- convenient navigation between graph nodes;
+
+- possibility of filtering the graph according to specified criteria.
+
+## Generating/Adjusting
+
+Parsing algorithms serve as the basis for generating new ETL/ELT processes.
+It allows to generate ETL/ELT processes of almost any complexity with
+taking into account data historicization algorithms, such as SCD1, SCD2, Data Vault 2.0 etc, and in a free form too.
+The system includes mechanisms for batch configuration of multiple ETL/ELT processes, as well as preparation of ETL/ELT processes for deployment.
+
+## Data quality (DQ)
+
+The module allows to automate DQ processes:
+
+- setting requirements for data verification;
+
+- generation of ETL/ELT processes to check DQ;
+
+- registration of verification rules;
+
+- accompanying automatically creation and updating of documentation.
+
+## Versioning
+
+In addition, the system includes modules:
+
+- automatic versioning of ETL/ELT processes and all database objects
+
+- GUI for easy recovery of ETL/ELT processes
+
+- visualization of simultaneous comparison of revisions ETL/ELT processes in human reedable form
+
+- batch comparison of multiple ETL/ELT processes
+
+- global search
+
+Technically, the system is a client-server solution,
+both with a direct http connection and using web sockets.
+
+After developing the project, I transfer knowledge to the team
+developers for subsequent project support.
