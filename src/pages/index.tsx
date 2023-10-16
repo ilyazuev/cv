@@ -18,7 +18,7 @@ function HomepageHeader(): ReactElement {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <Link
             className="button button--secondary button--lg"
-            to="/cv/resume/"
+            to="/cv/resume/intro"
           >
             View resume
           </Link>

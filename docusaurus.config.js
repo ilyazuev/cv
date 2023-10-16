@@ -72,11 +72,11 @@ module.exports = {
             items: [
               {
                 label: "Lineage for IBM products and Oracle",
-                to: "resume/Projects/IBM%20products",
+                to: "/resume/Projects/IBM products",
               },
               {
                 label: "Hogrefe Testsystem",
-                to: "resume/Projects/Hogrefe%20Testsystem",
+                to: "/resume/Projects/Hogrefe Testsystem",
               },
             ],
           },
