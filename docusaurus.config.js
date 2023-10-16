@@ -64,11 +64,24 @@ module.exports = {
         ],
       },
       footer: {
-        style: "light",
-        copyright: `
-        Copyright © 1973 Zuev. Last projects:
-            <a href="/cv/resume/Projects/IBM%20products">Lineage for IBM products and Oracle</a> · <a href="/cv/resume/Projects/Hogrefe%20Testsystem">Hogrefe Testsystem</a>
-        `, // Copyright © ${new Date().getFullYear()} Zuev.
+        style: "light", // copyright: `Copyright © 1973 Zuev`, // Copyright © ${new Date().getFullYear()} Zuev. // <a href="/cv/resume/Projects/IBM%20products">Lineage for IBM products and Oracle</a> · <a href="/cv/resume/Projects/Hogrefe%20Testsystem">Hogrefe Testsystem</a>
+        links: [
+          {},
+          {
+            title: "Last projects:",
+            items: [
+              {
+                label: "Lineage for IBM products and Oracle",
+                to: "resume/Projects/IBM%20products",
+              },
+              {
+                label: "Hogrefe Testsystem",
+                to: "resume/Projects/Hogrefe%20Testsystem",
+              },
+            ],
+          },
+          {},
+        ],
       },
       prism: {
         theme: lightCodeTheme,
