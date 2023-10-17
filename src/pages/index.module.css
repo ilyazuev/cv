@@ -30,3 +30,7 @@
     padding: 1rem;
   }
 }
+
+.hero__title {
+  white-space: nowrap;
+}
