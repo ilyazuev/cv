@@ -18,11 +18,8 @@ function HomepageHeader(): ReactElement {
             {siteConfig.title}
           </h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <Link
-            className="button button--secondary button--lg"
-            to="/cv/resume/intro"
-          >
-            View resume
+          <Link className="button button--secondary button--lg" to="/cv/intro">
+            View CV
           </Link>
         </div>
         <div className="col col--8 padding-vert--md">

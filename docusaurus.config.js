@@ -11,10 +11,10 @@ module.exports = {
   favicon: "img/photo.png",
 
   // Set the production url of your site here
-  url: "https://ilyazuev.github.io",
+  url: "https://zuev.eu", // https://ilyazuev.github.io
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/cv/",
+  baseUrl: "/", // /cv/
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -57,9 +57,9 @@ module.exports = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "resume",
+            sidebarId: "cv",
             position: "left",
-            label: "Resume",
+            label: "CV",
           },
         ],
       },
@@ -72,11 +72,11 @@ module.exports = {
             items: [
               {
                 label: "Lineage for IBM products and Oracle",
-                to: "/resume/Projects/IBM products",
+                to: "/cv/Projects/IBM products",
               },
               {
                 label: "Hogrefe Testsystem",
-                to: "/resume/Projects/Hogrefe Testsystem",
+                to: "/cv/Projects/Hogrefe Testsystem",
               },
             ],
           },
