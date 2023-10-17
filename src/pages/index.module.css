@@ -11,9 +11,12 @@
   overflow: hidden;
   background: linear-gradient(
     to bottom,
-    var(--ifm-color-primary-lightest),
+    #d73535,
+    #781f00,
+    #9d2802
+      /*var(--ifm-color-primary-lightest),
     var(--ifm-color-primary-darkest),
-    var(--ifm-color-primary-lightest)
+    var(--ifm-color-primary-lightest)*/
   );
 }
 
