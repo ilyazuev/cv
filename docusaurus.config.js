@@ -68,7 +68,7 @@ module.exports = {
         links: [
           {},
           {
-            title: "Last projects:",
+            title: "Plans & last projects:",
             items: [
               {
                 label: "Lineage for IBM products and Oracle",
@@ -77,6 +77,10 @@ module.exports = {
               {
                 label: "Hogrefe Testsystem",
                 to: "/cv/Projects/Hogrefe Testsystem",
+              },
+              {
+                label: "Plans",
+                to: "/cv/Plans",
               },
             ],
           },
