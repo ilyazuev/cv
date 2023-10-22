@@ -10,27 +10,27 @@ This initiative addresses several critical shortcomings associated with logical 
 
 These issues are as follows:
 
-- **Network Overhead** The data transfer between the database and ETL processes in this setup places a significant burden on the network infrastructure.
+- **Network Overhead** - The data transfer between the database and ETL processes in this setup places a significant burden on the network infrastructure.
 
-- **Performance Differential** IBM Datastage (ETL) pales in comparison to the processing power offered by Oracle Exadata (ELT), resulting in suboptimal performance.
+- **Performance Differential** - IBM Datastage (ETL) pales in comparison to the processing power offered by Oracle Exadata (ELT), resulting in suboptimal performance.
 
-- **Challenges of Visual Programming** Working within a visual programming environment, especially with IBM Datastage tools, significantly complicates the development and maintenance processes due to the following limitations:
+- **Challenges of Visual Programming** - Working within a visual programming environment, especially with IBM Datastage tools, significantly complicates the development and maintenance processes due to the following limitations:
 
-  - **Inadequate Search Capabilities** The ability to search for specific components or code segments is severely limited.
+  - **Inadequate Search Capabilities** - The ability to search for specific components or code segments is severely limited.
 
-  - **Complex Task Decomposition** Breaking down complex tasks into manageable parts becomes exceedingly difficult.
+  - **Complex Task Decomposition** - Breaking down complex tasks into manageable parts becomes exceedingly difficult.
 
-  - **Limited Debugging** Step-by-step debugging is practically impossible, hindering the identification of errors.
+  - **Limited Debugging** - Step-by-step debugging is practically impossible, hindering the identification of errors.
 
-  - **Error Analysis** There is no means to intercept and analyze errors occurring within individual blocks.
+  - **Error Analysis** - There are no means to intercept and analyze errors occurring within individual blocks.
 
-  - **Code Reusability** The potential for reusing code is virtually non-existent.
+  - **Code Reusability** - The potential for reusing code is virtually non-existent.
 
-  - **Fragmented Execution** Running code in separate sections, especially for incident analysis, is unfeasible.
+  - **Fragmented Execution** - Running code in separate sections, especially for incident analysis, is unfeasible.
 
-  - **Lack of Analytical Tools** The absence of robust tools for analyzing **execution plans** severely hampers incident analysis.
+  - **Lack of Analytical Tools** - The absence of robust tools for analyzing **execution plans** severely hampers incident analysis.
 
-  - **Vendor Lock-In** Most notably, this approach entails a high level of dependence on the service provider, resulting in exorbitant costs when transitioning ETL logic to a different ETL engine.
+  - **Vendor Lock-In** - Most notably, this approach entails a high level of dependence on the service provider, resulting in exorbitant costs when transitioning ETL logic to a different ETL engine.
 
 Developing a transpiler that can seamlessly convert IBM Datastage constructs into SQL represents an immensely complex endeavor.
 
